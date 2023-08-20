@@ -1,0 +1,29 @@
+ @charset "UTF-8";
+  
+ body {
+    background-image:linear-gradient(to right,#0D0D0D,#595959);
+ }
+ main{
+    background-color: #0D0D0D;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgb(72, 255, 0);
+    margin: auto;
+    width: 500px;
+ }
+  h1{
+    font-family: 'Lucida Sans';
+    text-align: center;
+    color: #8C8C8C;
+    text-shadow: 1px 1px 0px #F2F2F2;
+ }
+ h2{
+    color: #BFBFBF;
+
+
+ }
+ p{
+    color: #F2F2F2;
+    font-size: larger;
+
+ }
