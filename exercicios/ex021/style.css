@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+div{
+    display: inline-block;
+    background-color: rgb(128, 190, 245);
+    text-align: center;
+    width: 150px;
+    height: 150px;
+    border: 4px;
+    border-style: solid;
+    border-color: black;
+}
+.div1{
+    background-color: aqua;
+
+}
+.div2{
+    background-color: blueviolet;
+
+}
+.div3{
+    background-color: chartreuse;
+
+}
+div:hover{
+    color: bisque;
+}

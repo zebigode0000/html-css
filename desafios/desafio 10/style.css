@@ -1,0 +1,176 @@
+@charset "UTF-8";
+
+body{
+    background-color: #7ceb97;
+    margin: 0px;
+    
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+main>p{
+    margin: 15px 0px;
+    text-align: justify;
+    line-height: 1.6em;
+    font-size: 1.05em;
+}
+header{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to bottom, rgb(38, 112, 56),rgb(92, 121, 92));
+    text-align: center;
+    min-height: 150px;
+    padding-top: 40px;
+    
+    
+}
+header>h1{
+    text-shadow: 1px 1px 1px black;
+    margin-bottom: 15px;
+    text-align: justify;
+   text-align: center;
+   color: azure;
+}
+header>p{
+    text-shadow: 1px 1px 1px black;
+    color: aliceblue;
+    max-width: 500px;
+    font-size: 1.2em;
+    margin: auto;
+}
+nav{
+    text-align: left;
+    background-color: rgb(92, 121, 92);
+    box-shadow: 0px 0px 10px black;
+}
+nav>a{
+    text-decoration: none;
+    margin: 5px;
+    color: aliceblue;
+    text-shadow: 1px 1px 1px black;
+}
+
+Nav>a:hover{
+    background-color: #4ec76e;
+    border-radius: 5px;
+    padding: 2px;
+    transition-duration: 0.3s;
+}
+main{
+    background-color: aliceblue;
+    margin: auto;
+    min-width: 300px;
+    max-width: 900px;
+    box-shadow: 1px 1px 1px 1px black;
+    text-align: justify;
+    padding: 20px;
+    border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    margin-bottom: 30px;
+
+} 
+
+main>h1{
+    font-family: 'Abril Fatface', cursive;
+    font-size: larger;
+    text-align: left;
+    margin-left: 5px;
+}
+#titulo01{
+    color: #1b4225;
+
+}
+.titulo02{
+    font-family: 'Abril Fatface', cursive;
+    color: #317c45;
+    background-image: linear-gradient(to right, rgb(184, 255, 175), transparent);
+    text-indent: 10px;
+    
+    
+    
+}
+main>p{
+    text-indent: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: oblique;
+}
+p>a{
+    text-decoration: none;
+    color: #5ae27e;
+    padding: 1px 4px;
+    background-color: #184b26;
+    font-weight: bold;
+    border-radius: 3px;
+}
+p>a:hover{
+    text-decoration: underline;
+}
+#video{
+    background-color: #1b4225;
+    text-align: center;
+    padding: 20px;
+    margin: 0px -20px;
+    position: relative;
+    padding-bottom: 58%;
+}
+
+footer{
+    background-color: #1b4225;
+    text-align: center;
+    
+}
+footer a{
+    text-decoration: none;
+    color: #edeeed;
+}
+footer a:hover{
+    text-decoration: underline;
+}
+aside{
+    background-color: #317c45;
+    border-radius: 10px;
+    padding: 5px;
+    margin-top: 30px;
+    box-shadow: 3px 3px 8px black;
+}
+img{
+    width: 100%;
+}
+iframe{
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+    position: absolute;
+}
+main img.android{
+    display: block;
+    width: 50%;
+    margin: auto;
+}
+main strong{
+    color: #317c45;
+}
+aside h3{
+    font-family: 'Abril Fatface', cursive;
+    color: #184b26;
+    text-indent: 10px;
+    background-color: #5ae27e;
+    margin: -5px -5px 0px -5px;
+    border-radius: 10px 10px 0px 0px;
+    padding: 5px;
+}
+aside >ul{
+    list-style-position: inside;
+    columns: 2;
+}
+aside>p{
+    text-indent: 20px;
+    line-height: 1.5em;
+}
+
+
+
+
+
+

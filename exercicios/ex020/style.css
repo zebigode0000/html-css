@@ -1,0 +1,41 @@
+@charset "UTF-8";
+body{
+    background-color: aqua;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h1{
+    color: chartreuse;
+
+}
+h1#principal{
+    color: crimson;
+    text-align: center;
+    text-decoration: underline;
+
+
+}
+h2 {
+    color: cornflowerblue;
+
+}
+.basico{
+    color: brown;
+
+}
+.entermediario{
+    color: coral;
+
+}
+.avançado{
+    color: darkgoldenrod;
+
+}
+.aprendendo{
+    color: forestgreen;
+}
+.trecho{
+    background-color: blue;
+}
+.mark{
+    color: aquamarine;
+}
