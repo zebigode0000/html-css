@@ -4,10 +4,13 @@
 
 body{
     margin: 0%;
+    padding: 0%;
+    min-height: 100vh;
 }
 
 header{
     font-family: 'Passion One', cursive;
+    font-variant: small-caps;
     text-align: center;
     background-color: black;
     padding-top: 60px;
@@ -24,7 +27,7 @@ header a:hover{
 header h1{
     color: aliceblue;
     margin: 0%;
-    width: 100%;
+    font-size: 10vw;
         
 }
 header p{
@@ -40,15 +43,15 @@ article p{
     color: black;
     font-family: 'Passion One', cursive;
     margin-left: 25px;
-    font-size: 19px;
+    font-size: 3.5vw;
     font-style: italic;
     font-weight: bold;
-    line-height: 50px;
-    width: 50%;
+    line-height: 2em;
 }
 aside{
     padding: 6px;
     padding-left: 20px;
+    box-shadow: inset 6px 6px 13px 0px black;
 }
 aside p{
     color: aliceblue;
@@ -57,16 +60,16 @@ aside p{
     margin-top: 40px;
     font-family: 'Passion One', cursive;
     font-size: 16px;
-    line-height: 36px;
     font-style: italic;
     font-weight: bold;
-    max-width: 250px;
     margin-left: 30px;
+    display: inline-block;
+    font-size: 3.5vw;
+    line-height: 2em;
 }
 aside#abelha{
     background-image: url(https://viveroverde.com/images/casa-e-jardim/flores-abelhas/abelhas-flores.jpg);
 
-            height: 50vh;
             background-color: black;
             background-repeat: no-repeat;
             background-position: center center;
@@ -76,7 +79,6 @@ aside#abelha{
 }
 #livro{
     background-image: url(https://cdn.culturagenial.com/imagens/dicas-livros-og.jpg);
-    height: 50vh;
             background-color: black;
             background-repeat: no-repeat;
             background-position: center center;
