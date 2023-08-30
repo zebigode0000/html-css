@@ -1,0 +1,102 @@
+@charset "UTF-8";
+
+
+
+body{
+    margin: 0%;
+}
+
+header{
+    font-family: 'Passion One', cursive;
+    text-align: center;
+    background-color: black;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+header a{
+    text-decoration: none;
+    color: aliceblue;
+    font-family: 'Passion One', cursive;
+}
+header a:hover{
+    text-decoration: underline;
+}
+header h1{
+    color: aliceblue;
+    margin: 0%;
+    width: 100%;
+        
+}
+header p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+    margin: 0%;
+}
+article{
+    margin-top: 70px;
+    width: 100%;
+}
+article p{
+    color: black;
+    font-family: 'Passion One', cursive;
+    margin-left: 25px;
+    font-size: 19px;
+    font-style: italic;
+    font-weight: bold;
+    line-height: 50px;
+    width: 50%;
+}
+aside{
+    padding: 6px;
+    padding-left: 20px;
+}
+aside p{
+    color: aliceblue;
+    background-color: rgba(10,23,55,0.5);
+    padding: 15px;
+    margin-top: 40px;
+    font-family: 'Passion One', cursive;
+    font-size: 16px;
+    line-height: 36px;
+    font-style: italic;
+    font-weight: bold;
+    max-width: 250px;
+    margin-left: 30px;
+}
+aside#abelha{
+    background-image: url(https://viveroverde.com/images/casa-e-jardim/flores-abelhas/abelhas-flores.jpg);
+
+            height: 50vh;
+            background-color: black;
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-size: cover;
+            background-attachment: fixed;
+            
+}
+#livro{
+    background-image: url(https://cdn.culturagenial.com/imagens/dicas-livros-og.jpg);
+    height: 50vh;
+            background-color: black;
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-size: cover;
+            background-attachment: fixed;
+            width: 100%;
+}
+footer{
+    text-align: center;
+    background-color: black;
+}
+footer p{
+    color: aliceblue;
+    margin: 0%;
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+footer a:hover{
+    text-decoration: underline;
+
+}
