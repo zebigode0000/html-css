@@ -51,8 +51,6 @@ article p{
     color: black;
     margin-left: 25px;
     font-size: 3.5vw;
-    font-style: italic;
-    font-weight: bold;
     line-height: 2em;
 }
 aside{
@@ -75,7 +73,7 @@ aside p{
     line-height: 2em;
 }
 aside#abelha{
-    background-image: url(https://viveroverde.com/images/casa-e-jardim/flores-abelhas/abelhas-flores.jpg);
+    background-image: url(imagens/abelha.jpg);
 
             background-color: black;
             background-repeat: no-repeat;
@@ -91,7 +89,6 @@ aside#abelha{
             background-position: center center;
             background-size: cover;
             background-attachment: fixed;
-            width: 100%;
 }
 footer{
     text-align: center;
@@ -104,6 +101,7 @@ footer p{
 a{
     text-decoration: none;
     color: aliceblue;
+    font-weight: bold;
 }
 footer a:hover{
     text-decoration: underline;
