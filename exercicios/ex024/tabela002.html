@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabela 2</title>
+    <style>
+        table{
+            border-collapse: collapse;
+            width: 300px;
+        }
+        thead{
+            background-color: lightgrey;
+        }
+        thead th{
+            border: 1px solid black;
+            text-align: center;
+            height: 50px;
+        }
+        tbody td, th{
+            border: 1px solid black;
+            text-align: center;
+        }
+        tfoot th, td{
+            border: 1px solid black;
+            text-align: center;
+        }
+    </style>
+</head>
+<body><!--
+    anatomia para tabelas grandes
+    table
+    thead
+        tr,td,th
+    tbody
+        tr,td,th
+    tfoot
+        tr,td,th
+
+-->
+    <h1>uso de tabelas grandes
+    </h1>
+    <table>
+        <thead>
+            <tr>
+                <th>comidas</th>
+                <th>
+                    brasil
+                </th>
+                <th>
+                    argentina
+                </th>
+                <th>
+                    alemanha
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>alimentos</th>
+                <td>feijao</td>
+                <td>banana</td>
+                <td>frango</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>quantidade</th>
+                <td>2345</td>
+                <td>86543</td>
+                <td>947254</td>
+            </tr>
+        </tfoot>
+    </table>
+    
+</body>
+</html>
