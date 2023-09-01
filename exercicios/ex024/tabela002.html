@@ -8,28 +8,46 @@
         table{
             border-collapse: collapse;
             width: 300px;
+            position: relative;
         }
         thead{
-            background-color: lightgrey;
+            background-color: rgb(31, 31, 31);
+            color: rgba(240, 248, 255, 0.863);
         }
-        thead th{
+        thead > tr > th{
             border: 1px solid black;
             text-align: center;
             height: 50px;
+            position: sticky;
+            top: -1px;
+            background-color:  rgb(31, 31, 31);
         }
         tbody td, th{
             border: 1px solid black;
             text-align: center;
+            padding: 4px;
         }
-        tfoot th, td{
+        tfoot td{
             border: 1px solid black;
             text-align: center;
+        }
+        caption{
+            font-weight: bold;
+            font-size: larger;
+            background-color: lightslategray;
+        }
+        tbody tr:nth-child(2n){
+            background-color: lightgray;
+        }
+        tfoot{
+            background-color: rgba(0, 0, 0, 0.404);
         }
     </style>
 </head>
 <body><!--
     anatomia para tabelas grandes
     table
+    caption
     thead
         tr,td,th
     tbody
@@ -41,36 +59,269 @@
     <h1>uso de tabelas grandes
     </h1>
     <table>
+        <caption>Alimentos dos países</caption>
         <thead>
             <tr>
-                <th>comidas</th>
-                <th>
+                <th scope="col">comidas</th>
+                <th scope="col">
                     brasil
                 </th>
-                <th>
+                <th scope="col">
                     argentina
                 </th>
-                <th>
+                <th scope="col">
                     alemanha
                 </th>
             </tr>
         </thead>
         <tbody>
             <tr>
-                <th>alimentos</th>
                 <td>feijao</td>
-                <td>banana</td>
-                <td>frango</td>
+                <td>4534547</td>
+                <td>31256</td>
+                <td>56453</td>
             </tr>
-        </tbody>
-        <tfoot>
             <tr>
-                <th>quantidade</th>
+                <td>arroz</td>
                 <td>2345</td>
                 <td>86543</td>
                 <td>947254</td>
             </tr>
-        </tfoot>
+            <tr>
+                <td>batata</td>
+                <td>013496728</td>
+                <td>132312</td>
+                <td>342312</td>
+            </tr>
+            <tr>
+                <td>banana</td>
+                <td>13123</td>
+                <td>13131</td>
+                <td>453454</td>
+            </tr>
+            <tr>
+                <td>macarrao</td>
+                <td>4342</td>
+                <td>342534</td>
+                <td>89342567</td> 
+            </tr>
+            <tr>
+                <td>feijao</td>
+                <td>4534547</td>
+                <td>31256</td>
+                <td>56453</td>
+            </tr>
+            <tr>
+                <td>arroz</td>
+                <td>2345</td>
+                <td>86543</td>
+                <td>947254</td>
+            </tr>
+            <tr>
+                <td>batata</td>
+                <td>013496728</td>
+                <td>132312</td>
+                <td>342312</td>
+            </tr>
+            <tr>
+                <td>banana</td>
+                <td>13123</td>
+                <td>13131</td>
+                <td>453454</td>
+            </tr>
+            <tr>
+                <td>macarrao</td>
+                <td>4342</td>
+                <td>342534</td>
+                <td>89342567</td> 
+            </tr>
+            <tr>
+                <td>feijao</td>
+                <td>4534547</td>
+                <td>31256</td>
+                <td>56453</td>
+            </tr>
+            <tr>
+                <td>arroz</td>
+                <td>2345</td>
+                <td>86543</td>
+                <td>947254</td>
+            </tr>
+            <tr>
+                <td>batata</td>
+                <td>013496728</td>
+                <td>132312</td>
+                <td>342312</td>
+            </tr>
+            <tr>
+                <td>banana</td>
+                <td>13123</td>
+                <td>13131</td>
+                <td>453454</td>
+            </tr>
+            <tr>
+                <td>macarrao</td>
+                <td>4342</td>
+                <td>342534</td>
+                <td>89342567</td> 
+            </tr>
+            <tr>
+                <td>feijao</td>
+                <td>4534547</td>
+                <td>31256</td>
+                <td>56453</td>
+            </tr>
+            <tr>
+                <td>arroz</td>
+                <td>2345</td>
+                <td>86543</td>
+                <td>947254</td>
+            </tr>
+            <tr>
+                <td>batata</td>
+                <td>013496728</td>
+                <td>132312</td>
+                <td>342312</td>
+            </tr>
+            <tr>
+                <td>banana</td>
+                <td>13123</td>
+                <td>13131</td>
+                <td>453454</td>
+            </tr>
+            <tr>
+                <td>macarrao</td>
+                <td>4342</td>
+                <td>342534</td>
+                <td>89342567</td> 
+            </tr>
+            <tr>
+                <td>feijao</td>
+                <td>4534547</td>
+                <td>31256</td>
+                <td>56453</td>
+            </tr>
+            <tr>
+                <td>arroz</td>
+                <td>2345</td>
+                <td>86543</td>
+                <td>947254</td>
+            </tr>
+            <tr>
+                <td>batata</td>
+                <td>013496728</td>
+                <td>132312</td>
+                <td>342312</td>
+            </tr>
+            <tr>
+                <td>banana</td>
+                <td>13123</td>
+                <td>13131</td>
+                <td>453454</td>
+            </tr>
+            <tr>
+                <td>macarrao</td>
+                <td>4342</td>
+                <td>342534</td>
+                <td>89342567</td> 
+            </tr>
+            <tr>
+                <td>feijao</td>
+                <td>4534547</td>
+                <td>31256</td>
+                <td>56453</td>
+            </tr>
+            <tr>
+                <td>arroz</td>
+                <td>2345</td>
+                <td>86543</td>
+                <td>947254</td>
+            </tr>
+            <tr>
+                <td>batata</td>
+                <td>013496728</td>
+                <td>132312</td>
+                <td>342312</td>
+            </tr>
+            <tr>
+                <td>banana</td>
+                <td>13123</td>
+                <td>13131</td>
+                <td>453454</td>
+            </tr>
+            <tr>
+                <td>macarrao</td>
+                <td>4342</td>
+                <td>342534</td>
+                <td>89342567</td> 
+            </tr>
+            <tr>
+                <td>feijao</td>
+                <td>4534547</td>
+                <td>31256</td>
+                <td>56453</td>
+            </tr>
+            <tr>
+                <td>arroz</td>
+                <td>2345</td>
+                <td>86543</td>
+                <td>947254</td>
+            </tr>
+            <tr>
+                <td>batata</td>
+                <td>013496728</td>
+                <td>132312</td>
+                <td>342312</td>
+            </tr>
+            <tr>
+                <td>banana</td>
+                <td>13123</td>
+                <td>13131</td>
+                <td>453454</td>
+            </tr>
+            <tr>
+                <td>macarrao</td>
+                <td>4342</td>
+                <td>342534</td>
+                <td>89342567</td> 
+            </tr>
+            <tr>
+                <td>feijao</td>
+                <td>4534547</td>
+                <td>31256</td>
+                <td>56453</td>
+            </tr>
+            <tr>
+                <td>arroz</td>
+                <td>2345</td>
+                <td>86543</td>
+                <td>947254</td>
+            </tr>
+            <tr>
+                <td>batata</td>
+                <td>013496728</td>
+                <td>132312</td>
+                <td>342312</td>
+            </tr>
+            <tr>
+                <td>banana</td>
+                <td>13123</td>
+                <td>13131</td>
+                <td>453454</td>
+            </tr>
+            <tr>
+                <td>macarrao</td>
+                <td>4342</td>
+                <td>342534</td>
+                <td>89342567</td> 
+            </tr>
+        </tbody>
+            <tfoot>
+                <th>maximo</th>
+                <td>5643425364</td>
+                <td>543231643</td>
+                <td>341236432</td>
+            </tfoot>
     </table>
     
 </body>
