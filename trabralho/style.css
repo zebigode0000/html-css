@@ -1,0 +1,164 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Iso&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@500&family=Rubik+Iso&display=swap');
+
+*{margin: 0%; padding: 0%;}
+:root{
+    --font1:'Rubik Iso', cursive;
+    --font2:'Inconsolata', monospace;
+}
+body{
+    background-color: #2B1E59;
+}
+header{
+    background-color:#2B1E59;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+header h1{
+    text-align: left;
+    font-family: var(--font1);
+    color: rgb(194, 194, 194);
+    padding-left: 20px;
+}
+header p{
+    text-align: left;
+    color: aliceblue;
+    font-weight: bold;
+    padding-left: 30px;
+}
+header #profile{
+    width: 50px;
+    position: absolute;
+    right: 25px;
+    top: 13px;
+}
+#perfil{
+    text-align: right;
+    padding-right: 30px;
+}
+#logo{
+    width: 135px;
+    position: absolute;
+    bottom: 540px;
+    right: 0;
+    left: 20px;
+    top: 27px;
+    margin: auto;
+    border: 10px;
+    border-radius: 65px;
+    display: none;
+}
+#logo2{
+    display: block;
+    width: 90px;
+    position: absolute;
+    bottom: 625px;
+    right: 0;
+    left: 40px;
+    top: 27px;
+    margin: auto;
+    border: 10px;
+    border-radius: 65px;
+}
+@media(min-width: 850px)
+{
+    #logo{display: block;}
+    #logo2{display: none;}
+}
+header a{
+    text-decoration: none;
+    color: aliceblue;
+}
+header a:hover{
+    text-decoration: underline;
+}
+nav{
+    background-color:#201740;
+    text-align: left;
+}
+nav a{
+    margin-left: 15px;
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: var(--font1);
+}
+nav a:hover{
+    text-decoration: underline;
+    background-color: #6E34BF;
+    padding: 4px;
+    border-radius: 3px;
+}
+nav img{
+    width: 3%;
+}
+main{
+    text-align: center;
+}
+
+main img{
+    width: 40%;
+    margin: auto;
+    border: 1px;
+    border-radius: 10px;
+    position: relative;
+    left: -26%;
+    margin-top: 25px;
+}
+.quadrado{
+    display: inline-block;
+    border: 3px;
+    border-color: black;
+    border-style: solid;
+    width: 500px;
+    height: 300px;
+    border-radius: 10px;
+    background-color: lightblue;
+    margin: 0%;
+}
+#q1{
+    background: url(imagens/fortnite.jpg);
+    background-size: 200px 200px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin: 50px;
+}
+#q2{
+    background: url(imagens/FIFA23.jpg);
+    background-size: 200px 200px;
+    background-repeat: no-repeat;
+    background-size: 120%;
+    margin: 50px;
+}
+#q4{
+    background-image: url(imagens/war.jpg);
+    background-size: 200px 200px;
+    background-repeat: no-repeat;
+    background-size: 120%;
+    margin: 50px;
+}
+#q3{
+    background-image: url(imagens/Minecraft.jpg);
+    background-size: 200px 200px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin: 50px;
+}
+footer{
+    color: aliceblue;
+    background-color: black;
+    text-align: center;
+    font-size: 10px;
+}
+footer a{
+    color: rgb(204, 231, 150);
+    text-decoration: none;
+}
+footer a:hover{
+    text-decoration: underline;
+}
+
+
+
