@@ -1,0 +1,112 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Iso&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@500&family=Rubik+Iso&display=swap');
+
+*{margin: 0%; padding: 0%;}
+:root{
+    --font1:'Rubik Iso', cursive;
+    --font2:'Inconsolata', monospace;
+}
+body{
+    background-color: #2B1E59;
+}
+header{
+    background-color:#2B1E59;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+header h1{
+    text-align: left;
+    font-family: var(--font1);
+    color: rgb(194, 194, 194);
+    padding-left: 20px;
+}
+header p{
+    text-align: left;
+    color: aliceblue;
+    font-weight: bold;
+    padding-left: 30px;
+}
+header #profile{
+    width: 50px;
+    position: absolute;
+    right: 25px;
+    top: 13px;
+}
+#perfil{
+    text-align: right;
+    padding-right: 30px;
+}
+#logo{
+    width: 135px;
+    position: absolute;
+    bottom: 540px;
+    right: 0;
+    left: 20px;
+    top: 27px;
+    margin: auto;
+    border: 10px;
+    border-radius: 65px;
+    display: none;
+    box-shadow: 1px 5px 6px 1px;
+}
+#logo2{
+    display: block;
+    width: 90px;
+    position: absolute;
+    bottom: 625px;
+    right: 0;
+    left: 40px;
+    top: 27px;
+    margin: auto;
+    border: 10px;
+    border-radius: 65px;
+    box-shadow: 1px 5px 6px 1px;
+}
+
+@media(min-width: 850px)
+{
+    #logo{display: block;}
+    #logo2{display: none;}
+}
+header a{
+    text-decoration: none;
+    color: aliceblue;
+}
+header a:hover{
+    text-decoration: underline;
+}
+nav{
+    background-color:#201740;
+    text-align: left;
+}
+nav a{
+    margin-left: 15px;
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: var(--font1);
+}
+nav a:hover{
+    text-decoration: underline;
+    background-color: #6E34BF;
+    padding: 4px;
+    border-radius: 3px;
+}
+nav img{
+    width: 3%;}
+main aside{
+    margin-top: 4%;
+    margin-left: 4%;
+    display: inline-block;
+}
+aside img{
+    width: 300px;
+}
+aside table{
+
+}
+aside h1{
+    padding: 5px;
+}
