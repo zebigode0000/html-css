@@ -9,10 +9,10 @@
     --font2:'Inconsolata', monospace;
 }
 body{
-    background-color: #2B1E59;
+    background-color: rgb(12, 13, 20)
 }
 header{
-    background-color:#2B1E59;
+    background-color: rgb(31, 32, 48);
     padding-top: 10px;
     padding-bottom: 10px;
 }
@@ -78,8 +78,12 @@ header a:hover{
     text-decoration: underline;
 }
 nav{
-    background-color:#201740;
+    background-color:rgb(83, 53, 204);
     text-align: left;
+    border-radius: 3px;
+    margin-top: 9px;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 nav a{
     margin-left: 15px;
