@@ -1,16 +1,15 @@
-@charset "UTF-8";
-
-@import url('https://fonts.googleapis.com/css2?family=Rubik+Iso&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@500&family=Rubik+Iso&display=swap');
-
-*{margin: 0%; padding: 0%;}
-:root{
-    --font1:'Rubik Iso', cursive;
-    --font2:'Inconsolata', monospace;
+/* Import Google font - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
 }
 body{
-    background-color: rgb(12, 13, 20)
+    background-color: #343F4F;
 }
+
 header{
     background-color: rgb(31, 32, 48);
     padding-top: 10px;
@@ -106,26 +105,83 @@ nav a:hover{
 nav img{
     width: 3%;
 }
-main{
+.wrapper{
+    display: block;
+    max-width: 1200PX;
+    position: relative;
+    left: 50px;
+    bottom: 250px;
+}
+h1{
+    margin-top: 45px;
+    margin-left: 45px;
+    margin-bottom: 0%;
+}
+.wrapper i{
+  top: 81%;
+  height: 44px;
+  width: 44px;
+  color: #343F4F;
+  cursor: pointer;
+  font-size: 1.15rem;
+  position: absolute;
+  text-align: center;
+  line-height: 44px;
+  background: #fff;
+  border-radius: 50%;
+  transform: translateY(-50%);
+  transition: transform 0.1s linear;
+}
+.wrapper i:active{
+    transform: translateY(-50%) scale(0.9);
+}
+.wrapper i:hover{
+  background: #f2f2f2;
+}
+.wrapper i:first-child{
+    left: -22px;
+    display: none;
+}
+.wrapper i:last-child{
+  right: -22px;
+}
+.wrapper .carousel{
+    font-size: 0px;
+    cursor: pointer;
+    overflow: hidden;
     white-space: nowrap;
+    scroll-behavior: smooth;
 }
-main aside{
-    margin-top: 4%;
-    margin-left: 2%;
-    display: inline-block;
-    color: aliceblue;
-    
+.carousel.dragging{
+  cursor: grab;
+  scroll-behavior: auto;
 }
-aside img{
-    width: 200px;
-    border-radius: 5px;
+.carousel.dragging img{
+  pointer-events: none;
 }
-aside h1{
-    padding: 5px;
-    font-size: smaller;
-    text-align: center;
+.carousel img{
+    margin-top: 22%;
+    height: 200px;
+    object-fit: cover;
+    user-select: none;
+    margin-left: 14px;
+    width: calc(100% / 3);
+}
+.carousel img:first-child{
+  margin-left: 0px;
 }
 
 
+@media screen and (max-width: 900px) {
+    .carousel img{
+        width: calc(100% / 2);
+      }
+}
 
+
+@media screen and (max-width: 550px) {
+    .carousel img{
+        width: 100%;
+      }
+}
 
