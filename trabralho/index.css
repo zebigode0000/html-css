@@ -110,7 +110,7 @@ main{
     white-space: nowrap;
 }
 main aside{
-    margin-top: 4%;
+    margin-top: 0%;
     margin-left: 2%;
     display: inline-block;
     color: aliceblue;
@@ -125,7 +125,11 @@ aside h1{
     font-size: smaller;
     text-align: center;
 }
-
+main h1{
+    color: aliceblue;
+    margin-top: 4%;
+    padding: 0%;
+}
 
 
 

@@ -108,15 +108,3 @@ nav a:hover{
 }
 nav img{
     width: 3%;}
-main aside{
-    margin-top: 4%;
-    margin-left: 4%;
-    display: inline-block;
-    color: aliceblue;
-}
-aside img{
-    width: 300px;
-}
-aside h1{
-    padding: 5px;
-}
