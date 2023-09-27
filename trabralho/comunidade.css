@@ -100,3 +100,29 @@ nav a:hover{
 }
 nav img{
     width: 3%;}
+
+h3{
+    color: aliceblue;
+}
+h1{
+    color: #6E34BF;
+}
+h2{
+    color: green;
+    margin-bottom: 3%;
+}
+main{
+    margin-left: 3%;
+    margin-top: 3%;
+}
+main a{
+    text-decoration: none;
+    color: aliceblue;
+    background-color: #6E34BF;
+    padding: 5px;
+    border-radius: 5px;
+}
+main a:hover{
+    padding: 7px;
+}
+    
