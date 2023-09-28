@@ -1,0 +1,74 @@
+*{margin: 0%; padding: 0%;}
+:root{
+    --font1:'Rubik Iso', cursive;
+    --font2:'Inconsolata', monospace;
+}
+body{
+    background-color: rgb(12, 13, 20)
+}
+header{
+    background-color: rgb(31, 32, 48);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+header h1{
+    text-align: left;
+    font-family: var(--font1);
+    color: rgb(194, 194, 194);
+    padding-left: 20px;
+}
+header p{
+    text-align: left;
+    color: aliceblue;
+    font-weight: bold;
+    padding-left: 30px;
+}
+header #profile{
+    width: 50px;
+    position: absolute;
+    right: 25px;
+    top: 13px;
+}
+#perfil{
+    text-align: right;
+    padding-right: 30px;
+}
+#logo{
+    width: 135px;
+    position: absolute;
+    bottom: 540px;
+    right: 0;
+    left: 20px;
+    top: 27px;
+    margin: auto;
+    border: 10px;
+    border-radius: 65px;
+    display: none;
+    box-shadow: 1px 5px 6px 1px;
+}
+#logo2{
+    display: block;
+    width: 90px;
+    position: absolute;
+    bottom: 625px;
+    right: 0;
+    left: 40px;
+    top: 27px;
+    margin: auto;
+    border: 10px;
+    border-radius: 65px;
+    box-shadow: 1px 5px 6px 1px;
+}
+
+@media(min-width: 850px)
+{
+    #logo{display: block;}
+    #logo2{display: none;}
+}
+header a{
+    text-decoration: none;
+    color: aliceblue;
+}
+header a:hover{
+    text-decoration: underline;
+}

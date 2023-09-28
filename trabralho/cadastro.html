@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LobbyGames</title>
+    <link rel="stylesheet" href="sobre.css">
+    <link rel="stylesheet" href="conexaoTeste.php">
+    <style>
+        h2{
+            text-align: center;
+            color: rgb(194, 194, 194);
+            padding-left: 20px;
+        }
+        main{
+            align-items: center;
+            text-align: center;
+            color: #fff;
+            padding-top: 3cm;
+        }
+        .container{
+            max-width: 600px;
+            margin: auto;
+            padding: 20px;
+            box-sizing: border-box;
+            background-color: rgba(31,32,48);
+            border-radius: 10px;
+        }
+        label{
+            font-size: large;
+            font-family: 'Courier New', Courier, monospace;
+        }
+    </style>
+</head>
+<body>
+    <header> 
+        <h1>LobbyGames</h1>
+        <p>Conquistas ao seu alcance!</p>
+        <img src="imagens/711769.jpg" alt="" id="profile">
+        <a href="#">
+            <p id="perfil">Perfil</p>
+        </a>
+        <img src="imagens/1a974b15ad8e43e582a0a549c22b1441.png" alt="" id="logo">
+        <img src="imagens/1a974b15ad8e43e582a0a549c22b1441.png" alt="" id="logo2">
+        
+    </header>
+    <body>
+        <div class="container">
+        <main>
+            <h2>Crie uma nova conta!</h2><br><br><br>
+        <form action="testeCadastro.php" method="post">
+            <label for="nome">User: </label>
+            <input type="search" id="nome_usuario" name="nome" required><br><br>
+
+            <label for="senha">Senha:</label>
+            <input type="password" id="senha" name="senha" required><br><br>
+            <input type="submit" value="Criar">
+        </form>
+        </main>
+        </div>
+        <footer></footer>
+    </body>
+    </html>
