@@ -49,10 +49,10 @@ header a:hover{
 #logo{
     width: 135px;
     position: absolute;
-    bottom: 540px;
+    bottom: 720px;
     right: 0;
     left: 20px;
-    top: 27px;
+    
     margin: auto;
     border: 10px;
     border-radius: 65px;
@@ -120,3 +120,398 @@ aside img{
 aside h1{
     padding: 5px;
 }
+
+.slider1 {
+    display: block;
+    height: 300px;
+    width: 300px;
+    margin: 0px;
+    position: relative;
+}
+
+.slider1 li {
+    list-style: none;
+    visibility: hidden;
+    position: absolute;
+}
+
+.slider1 img {
+    margin: auto;
+    height: 100%;
+    width: 100%;
+    vertical-align: top;
+
+}
+
+.slider1 label {
+    background-color: #0697eb;
+    bottom: 10px;
+    cursor: pointer;
+    display: block;
+    height: 10px;
+    position: relative;
+    width: 10px;
+    z-index: 10;
+}
+
+.slider1 li:nth-child(1) label {
+    visibility: visible;
+    left: 10px;
+}
+
+.slider1 li:nth-child(2) label {
+    visibility: visible;
+    left: 40px;
+}
+
+.slider1 li:nth-child(3) label {
+    visibility: visible;
+    left: 70px;
+}
+
+.slider1 img {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.slider1 li input:checked ~ img {
+    opacity: 1;
+    visibility: visible;
+    z-index: 50;
+}
+
+.slider1 input {
+    display: none;
+}
+
+* { margin: 0; padding: 0; }
+
+
+.slider2 {
+    display: block;
+    height: 300px;
+    width: 300px;
+    margin: 0px;
+    position: relative;
+}
+
+.slider2 li {
+    list-style: none;
+    visibility: hidden;
+    position: absolute;
+}
+
+.slider2 img {
+    margin: auto;
+    height: 100%;
+    width: 100%;
+    vertical-align: top;
+
+}
+
+.slider2 label {
+    background-color: #0697eb;
+    bottom: 10px;
+    cursor: pointer;
+    display: block;
+    height: 10px;
+    position: relative;
+    width: 10px;
+    z-index: 10;
+}
+
+.slider2 li:nth-child(1) label {
+    visibility: visible;
+    left: 10px;
+}
+
+.slider2 li:nth-child(2) label {
+    visibility: visible;
+    left: 40px;
+}
+
+.slider2 li:nth-child(3) label {
+    visibility: visible;
+    left: 70px;
+}
+
+.slider2 img {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.slider2 li input:checked ~ img {
+    opacity: 1;
+    visibility: visible;
+    z-index: 50;
+}
+
+.slider2 input {
+    display: none;
+}
+
+* { margin: 0; padding: 0; } 
+
+
+.slider3 {
+    display: block;
+    height: 300px;
+    width: 300px;
+    margin: 0px;
+    position: relative;
+}
+
+.slider3 li {
+    list-style: none;
+    visibility: hidden;
+    position: absolute;
+}
+
+.slider3 img {
+    margin: auto;
+    height: 100%;
+    width: 100%;
+    vertical-align: top;
+
+}
+
+.slider3 label {
+    background-color: #0697eb;
+    bottom: 10px;
+    cursor: pointer;
+    display: block;
+    height: 10px;
+    position: relative;
+    width: 10px;
+    z-index: 10;
+}
+
+.slider3 li:nth-child(1) label {
+    visibility: visible;
+    left: 10px;
+}
+
+.slider3 li:nth-child(2) label {
+    visibility: visible;
+    left: 40px;
+}
+
+.slider3 li:nth-child(3) label {
+    visibility: visible;
+    left: 70px;
+}
+
+.slider3 img {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.slider3 li input:checked ~ img {
+    opacity: 1;
+    visibility: visible;
+    z-index: 50;
+}
+
+.slider3 input {
+    display: none;
+}
+
+* { margin: 0; padding: 0; }
+
+
+.slider4 {
+    display: block;
+    height: 300px;
+    width: 300px;
+    margin: 0px;
+    position: relative;
+}
+
+.slider4 li {
+    list-style: none;
+    visibility: hidden;
+    position: absolute;
+}
+
+.slider4 img {
+    margin: auto;
+    height: 100%;
+    width: 100%;
+    vertical-align: top;
+
+}
+
+.slider4 label {
+    background-color: #0697eb;
+    bottom: 10px;
+    cursor: pointer;
+    display: block;
+    height: 10px;
+    position: relative;
+    width: 10px;
+    z-index: 10;
+}
+
+.slider4 li:nth-child(1) label {
+    visibility: visible;
+    left: 10px;
+}
+
+.slider4 li:nth-child(2) label {
+    visibility: visible;
+    left: 40px;
+}
+
+.slider4 li:nth-child(3) label {
+    visibility: visible;
+    left: 70px;
+}
+
+.slider4 img {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.slider4 li input:checked ~ img {
+    opacity: 1;
+    visibility: visible;
+    z-index: 50;
+}
+
+.slider4 input {
+    display: none;
+}
+
+* { margin: 0; padding: 0; }
+
+
+.slider5 {
+    display: block;
+    height: 300px;
+    width: 300px;
+    margin: 0px;
+    position: relative;
+}
+
+.slider5 li {
+    list-style: none;
+    visibility: hidden;
+    position: absolute;
+}
+
+.slider5 img {
+    margin: auto;
+    height: 100%;
+    width: 100%;
+    vertical-align: top;
+
+}
+
+.slider5 label {
+    background-color: #0697eb;
+    bottom: 10px;
+    cursor: pointer;
+    display: block;
+    height: 10px;
+    position: relative;
+    width: 10px;
+    z-index: 10;
+}
+
+.slider5 li:nth-child(1) label {
+    visibility: visible;
+    left: 10px;
+}
+
+.slider5 li:nth-child(2) label {
+    visibility: visible;
+    left: 40px;
+}
+
+.slider5 li:nth-child(3) label {
+    visibility: visible;
+    left: 70px;
+}
+
+.slider5 img {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.slider5 li input:checked ~ img {
+    opacity: 1;
+    visibility: visible;
+    z-index: 50;
+}
+
+.slider5 input {
+    display: none;
+}
+
+* { margin: 0; padding: 0; }
+
+
+.slider6 {
+    display: block;
+    height: 300px;
+    width: 300px;
+    margin: 0px;
+    position: relative;
+}
+
+.slider6 li {
+    list-style: none;
+    visibility: hidden;
+    position: absolute;
+}
+
+.slider6 img {
+    margin: auto;
+    height: 100%;
+    width: 100%;
+    vertical-align: top;
+
+}
+
+.slider6 label {
+    background-color: #0697eb;
+    bottom: 10px;
+    cursor: pointer;
+    display: block;
+    height: 10px;
+    position: relative;
+    width: 10px;
+    z-index: 10;
+}
+
+.slider6 li:nth-child(1) label {
+    visibility: visible;
+    left: 10px;
+}
+
+.slider6 li:nth-child(2) label {
+    visibility: visible;
+    left: 40px;
+}
+
+.slider6 li:nth-child(3) label {
+    visibility: visible;
+    left: 70px;
+}
+
+.slider6 img {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.slider6 li input:checked ~ img {
+    opacity: 1;
+    visibility: visible;
+    z-index: 50;
+}
+
+.slider6 input {
+    display: none;
+}
+
+* { margin: 0; padding: 0; }
