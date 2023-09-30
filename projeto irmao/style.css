@@ -31,3 +31,29 @@ nav a{
 nav a:hover{
     text-decoration: underline;
 }
+nav a>img{
+    display: block;
+    position: absolute;
+    bottom: 85%;
+    left: 88%;
+    width: 25px;
+}
+#img:hover{
+    width: 25.9px;
+}
+#img2:hover{
+    width: 25.8px;
+}
+#img2{
+    width: 25px;
+    display: none;
+    position: absolute;
+    left: 88%;
+}
+@media (min-width: 650px)
+{
+    #img{display: none;}
+    #img2{display: block;}
+}
+
+
